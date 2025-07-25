@@ -1,0 +1,13 @@
+# Simple terminal commands
+#
+alias .="pwd"
+alias h="cd ~"
+alias c="clear"
+alias q="exit"
+alias a="vim ~/.config/aliases/.zsh_aliases"
+
+alias ff="fastfetch"
+alias la="ls -la"
+
+# Connect to Valhalla
+alias conn="ssh valhalla@192.168.1.7"

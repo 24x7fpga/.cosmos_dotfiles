@@ -1,0 +1,4 @@
+[global] 
+# Time for the notificaiton to appear in seconds
+timeout = 2
+
