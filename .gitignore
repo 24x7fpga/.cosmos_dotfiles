@@ -1,0 +1,13 @@
+# Ignore all swap files
+**/*.swp
+
+# Ignore all files in the folder emacs
+# except for the ones listed in git keep 
+emacs/.config/emacs/*
+# Keep these files for GitHub Sync
+!emacs/.config/emacs/images
+!emacs/.config/emacs/scripts
+!emacs/.config/emacs/themes
+!emacs/.config/emacs/config.org
+!emacs/.config/emacs/early-init.el
+!emacs/.config/emacs/init.el
